@@ -34,15 +34,15 @@ const Navegacion = () => {
     return ( 
         <Nav>
             <NavLink
-                className="clase actual"
+                activeClassName="pagina-actual"
                 to={'/'}
             >Inicio</NavLink>
             <NavLink
-                className="clase actual"
+                activeClassName="pagina-actual"
                 to={'/nosotros'}
             >Nosotros</NavLink>
             <NavLink
-                className="clase actual"
+                activeClassName="pagina-actual"
                 to={'/propiedades'}
             >Propiedades</NavLink>
         </Nav>
